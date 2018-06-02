@@ -12,19 +12,16 @@ public class PhotoResponse implements Serializable
 
     @SerializedName("current_page")
     @Expose
-    public int currentPage;
+    public Integer currentPage;
     @SerializedName("total_pages")
     @Expose
-    public int totalPages;
+    public Integer totalPages;
     @SerializedName("total_items")
     @Expose
-    public int totalItems;
+    public Integer totalItems;
     @SerializedName("photos")
     @Expose
     public List<Photo> photos = null;
-//    @SerializedName("filters")
-//    @Expose
-//    public Filters filters;
     @SerializedName("feature")
     @Expose
     public String feature;

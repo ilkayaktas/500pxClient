@@ -4,17 +4,13 @@ package com.ilkayaktas.makemepopular.controller.api.fivehundredpx.model.photo;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class Filters implements Serializable
-{
+public class Filters {
 
     @SerializedName("category")
     @Expose
-    public int category;
+    public Integer category;
     @SerializedName("exclude")
     @Expose
-    public boolean exclude;
-    private final static long serialVersionUID = -884068788510610686L;
+    public Boolean exclude;
 
 }
