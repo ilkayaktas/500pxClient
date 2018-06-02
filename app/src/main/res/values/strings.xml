@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">500px Wallpapers</string>
+    <string name="all_errormessage">Error!</string>
+    <string name="splashscreen_slogan">\"For without doubt in the remembrance of Allah do hearts find satisfaction!\"\n\n Al-Rad 28</string>
+
+    <string name="rateme_dialog_title">Rate This Application</string>
+    <string name="rateme_dialog_message">Would you mind rating our application? Thanks for your support!</string>
+    <string name="rateme_dialog_ok">Rate Now</string>
+    <string name="rateme_dialog_cancel">Remind Later</string>
+    <string name="rateme_dialog_no">No, Thanks</string>
+    <string name="problem_on_loading">Problem on loading photos!</string>
+    <string name="action_try_again">Try again</string>
+    <string name="fab_download">Download</string>
+    <string name="fab_share">Share</string>
+    <string name="fab_wallpaper">Set as Wallpaper</string>
+    <string name="permission_writeexternalstorage_rationale">Downloading and Setting Background features require WRITE_EXTERNAL_STORAGE storage.</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="your_favorite">Your Favorites</string>
+
+</resources>

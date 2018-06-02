@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070b16"
+    android:fitsSystemWindows="true"
+    tools:context="com.ilkayaktas.makemepopular.views.activities.home.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_full_actionbar"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/iv_fullphotoscreen_photo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#070b16"
+            android:layout_weight="1"
+            tools:src="@mipmap/ic_placeholder"/>
+
+        <include layout="@layout/layout_full_bottombar"/>
+
+
+    </LinearLayout>
+
+
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/fab_fullphotoscreen_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@color/black_transparent"
+        app:fabGravity="bottom_end"
+        app:fabMenu="@menu/menu_main"
+        app:miniFabBackgroundTintList="@array/fab_menu_item_colors"
+        app:miniFabDrawableTint="@color/mobss_color_white"
+        app:fabBackgroundTint="#81D07B"
+        app:miniFabTitleTextColorList="@array/fab_menu_item_colors"/>
+
+</android.support.design.widget.CoordinatorLayout>

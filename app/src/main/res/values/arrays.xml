@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <!--<item>All</item>-->
+        <item>Landscapes</item>
+        <item>Night</item>
+        <item>Nature</item>
+        <item>Aerial</item>
+        <item>Family</item>
+        <item>Macro</item>
+        <item>Wedding</item>
+        <item>Animals</item>
+        <item>Abstract</item>
+        <item>City and Architecture</item>
+        <item>Commercial</item>
+        <item>Film</item>
+        <item>Food</item>
+        <item>Journalism</item>
+        <item>Sport</item>
+        <item>Travel</item>
+        <item>Underwater</item>
+        <item>@string/your_favorite</item>
+    </string-array>
+</resources>

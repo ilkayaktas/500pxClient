@@ -1,0 +1,109 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "io.realm:realm-gradle-plugin:4.1.1"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+        mavenCentral()
+        maven { url 'https://github.com/500px/greedo-layout-for-android/raw/master/releases/' }
+        maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local/' }
+        maven { url 'https://maven.google.com' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 27
+    compileSdkVersion = 27
+    buildToolsVersion = '26.0.2'
+
+    // App dependencies
+    supportLibraryVersion = '25.3.1'
+    constraintsLibraryVersion = '1.0.2'
+
+    //Test dependencies
+    junitVersion = '4.12'
+    espressoVersion = '2.2.2'
+
+    // Dagger version
+    daggerVersion = '2.0'
+
+    // Butterknife
+    butterKnifeVersion = '8.5.1'
+
+    // EventBus
+    eventBusVersion = "3.0.0"
+
+    // Jelly Toolbar
+    jellyToolbar = "v1.0"
+
+    // InfiniteCycleViewPager
+    infiniteCycleVersion = "1.0.2"
+
+    // SlidingUp panel
+    slidingUpPanelVersion = "3.3.1"
+
+    // Spark Button
+    sparkButtonVersion = "1.0.5"
+
+    // Retrofit
+    retroFitVersion = "2.3.0"
+
+    // ReactiveX
+    rxandroidVersion = '2.0.1'
+
+    // RxJava Adapter
+    rxjavaAdapterVersion = "1.0.0"
+
+    // Glide
+    glideVersion = "4.0.0"
+
+    // Guava
+    guavaVersion = "23.0-android"
+
+    // Picasso
+    picassoVersion = "2.5.2"
+
+    // PhotoView
+    photoViewVersion = "2.1.3"
+
+    // Greedo
+    greedoVersion = "1.1.0"
+
+    // Fab
+    fabVersion = "1.0.6"
+
+    // Permission Dispatcher
+    permissionDispatcherVersion = "3.0.1"
+
+    // Stetho
+    stethoVersion = "1.5.0"
+
+    // Spark Button
+    sparkButtonVersion = "1.0.5"
+
+    // Glide
+    glideVersion = "4.3.1"
+
+    // Toasty
+    toastyVersion = "1.2.5"
+}
+
