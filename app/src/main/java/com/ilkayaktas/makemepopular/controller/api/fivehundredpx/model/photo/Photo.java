@@ -64,9 +64,6 @@ public class Photo implements Serializable
     @SerializedName("converted_bits")
     @Expose
     public Integer convertedBits;
-    @SerializedName("editored_by")
-    @Expose
-    public EditoredBy editoredBy;
     @SerializedName("positive_votes_count")
     @Expose
     public Integer positiveVotesCount;

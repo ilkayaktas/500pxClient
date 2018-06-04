@@ -143,14 +143,6 @@ public class PhotosGridFragment extends BaseFragment implements PhotosGridFragme
     public void showError() {
         mSnackbar = Snackbar.make(mMainContainer, R.string.problem_on_loading,
                 Snackbar.LENGTH_INDEFINITE);
-//                .setAction(R.string.action_try_again, new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//                        mSnackbar.dismiss();
-//                        setLoadingIndicator(false);
-//                        mPresenter.fetchPhotos(category, true);
-//                    }
-//                });
         mSnackbar.show();
     }
 

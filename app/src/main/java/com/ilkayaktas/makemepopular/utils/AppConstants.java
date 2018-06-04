@@ -33,7 +33,7 @@ public final class AppConstants {
     public static final String FIVEHUNDREDPX_BASE_URL = "https://api.500px.com/v1/";
     public static final String FIVEHUNDREDPX_PHOTOS_ENDPOINT_PATH = "photos?feature=popular";
     public static final String FIVEHUNDREDPX_PHOTOS_CONSUMER_KEY = "&consumer_key=";
-    public static final String FIVEHUNDREDPX_IMAGE_SIZE_600_2048 = "&image_size=21,2048";
+    public static final String FIVEHUNDREDPX_IMAGE_SIZE_600_2048 = "&image_size=21,6";
     public static final String FIVEHUNDREDPX_PHOTOS_CATEGORY = "only";
     public static final String FIVEHUNDREDPX_PHOTOS_EXCLUDE = "&exclude=0,1,4,5,6,7,14,16,19,21,24,26,27";
     public static final String FIVEHUNDREDPX_PAGE = "page";

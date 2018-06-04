@@ -4,7 +4,9 @@ package com.ilkayaktas.makemepopular.controller.api.fivehundredpx.model.photo;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Small {
+import java.io.Serializable;
+
+public class Small implements Serializable{
 
     @SerializedName("https")
     @Expose
